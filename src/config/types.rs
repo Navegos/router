@@ -422,7 +422,7 @@ impl Default for RouterConfig {
             log_dir: None,
             log_level: None,
             request_id_headers: None,
-            max_concurrent_requests: 256,
+            max_concurrent_requests: 32768,
             queue_size: 100,
             queue_timeout_secs: 60,
             rate_limit_tokens_per_second: None,

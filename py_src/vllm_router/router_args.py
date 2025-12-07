@@ -57,7 +57,7 @@ class RouterArgs:
     # Request timeout in seconds
     request_timeout_secs: int = 1800
     # Max concurrent requests for rate limiting
-    max_concurrent_requests: int = 256
+    max_concurrent_requests: int = 32768
     # Queue size for pending requests when max concurrent limit reached
     queue_size: int = 100
     # Maximum time (in seconds) a request can wait in queue before timing out

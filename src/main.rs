@@ -244,7 +244,7 @@ struct CliArgs {
     request_timeout_secs: u64,
 
     /// Maximum number of concurrent requests allowed
-    #[arg(long, default_value_t = 256)]
+    #[arg(long, default_value_t = 32768)]
     max_concurrent_requests: usize,
 
     /// CORS allowed origins

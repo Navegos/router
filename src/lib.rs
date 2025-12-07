@@ -270,7 +270,7 @@ impl Router {
         decode_urls = None,
         prefill_policy = None,
         decode_policy = None,
-        max_concurrent_requests = 256,
+        max_concurrent_requests = 32768,
         cors_allowed_origins = vec![],
         // Retry defaults
         retry_max_retries = 5,
